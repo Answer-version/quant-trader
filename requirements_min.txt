@@ -1,0 +1,5 @@
+# Core dependencies (use latest available versions)
+matplotlib
+mplfinance
+pandas
+requests

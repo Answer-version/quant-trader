@@ -1,7 +1,8 @@
+# Core dependencies (Python 3.13 compatible)
 backtrader>=1.9.78
-akshare>=1.14.0
 matplotlib>=3.8.0
-mplfinance>=0.12.9
+mplfinance>=0.12.10b0
 pandas>=2.1.0
-python-telegram-bot>=20.0
 requests>=2.31.0
+# Telegram推送（使用requests直接调用API，不需要单独安装）
+# python-telegram-bot>=20.0  # 可选，已内置到telegram_sender.py
